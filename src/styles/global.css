@@ -74,3 +74,16 @@ span.currentExperience{
     top: 12px;
     transform: translate(-50%);   
 }
+
+.divBotoes{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.divBotoes > button{
+    width: 50rem;
+    background: var(--green);
+    border-radius: 5px;
+    margin: 10px;
+}

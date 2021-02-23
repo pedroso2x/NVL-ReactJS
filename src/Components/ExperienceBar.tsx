@@ -44,10 +44,16 @@ function decrement() {
                 <span id='exp' className='currentExperience'>{c+"%"}</span>
             </div>
             <span>{proximoNivel} xp</span>
-            <button onClick={increment} style={{padding:'5px'}}>+</button>
-            <button onClick={decrement} style={{padding:'5px'}}>-</button>
+
         </header>
-        <h1 style={{padding: '20px'}}>{"Nivel atual: "+nivel}</h1>
+        <div>
+            <h1 style={{padding: '20px'}}>{"Nivel atual: "+nivel}</h1>
+        </div>
+        <div className='divBotoes'>
+            <button onClick={decrement} style={{padding:'5px'}}>-</button> 
+            <button onClick={increment} style={{padding:'5px'}}>+</button>
+             
+        </div>        
         </div>
 
     );
